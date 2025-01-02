@@ -32,36 +32,36 @@
 1. **ファイルを削除**
 ```bash
    rm ファイル名
-   
+   ```
 2. **変更をステージング**
 ```bash
    git add -u
-   
+   ```
 3. **コミット**
 ```bash
    git commit -m "Deleted unnecessary files"
-   
+   ```
 4. **リモートにプッシュ**
 ```bash
    git push origin ブランチ名
-   
+   ```
 ---
 
 ## 3. ローカルリポジトリの削除
 
 ### 手順
 1. **ローカルリポジトリのディレクトリに移動**
-bash
+```bash
    cd /path/to/repository
-   
+   ```
 2. **リポジトリを削除**
 ```bash
    rm -rf .git
-   
+   ```
 3. **ディレクトリ全体を削除（任意）**
 ```bash
    rm -rf /path/to/repository
-   
+   ```
 ---
 
 ## 4. 注意事項
