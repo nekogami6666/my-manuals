@@ -30,20 +30,16 @@
 
 ### 手順
 1. **ファイルを削除**
-bash
-   rm ファイル名
+bash rm ファイル名
    
 2. **変更をステージング**
-bash
-   git add -u
+bash git add -u
    
 3. **コミット**
-bash
-   git commit -m "Deleted unnecessary files"
+bash git commit -m "Deleted unnecessary files"
    
 4. **リモートにプッシュ**
-bash
-   git push origin ブランチ名
+bash git push origin ブランチ名
    
 ---
 
@@ -51,16 +47,13 @@ bash
 
 ### 手順
 1. **ローカルリポジトリのディレクトリに移動**
-bash
-   cd /path/to/repository
+bash cd /path/to/repository
    
 2. **リポジトリを削除**
-bash
-   rm -rf .git
+bash rm -rf .git
    
 3. **ディレクトリ全体を削除（任意）**
-bash
-   rm -rf /path/to/repository
+bash rm -rf /path/to/repository
    
 ---
 
